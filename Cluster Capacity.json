@@ -1,0 +1,276 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1542142289913,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "2d3d5967-e87e-4bd2-8155-7257aa08c583",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Operations Performance/Cluster Capacity",
+      "namePath": "Operations Performance",
+      "rank": 96,
+      "shared": false,
+      "temporary": false,
+      "userId": "d78b75ee-4faa-4f03-aa33-e716b473105a",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "cc2b26f6-1a53-4ffd-a515-ec075810b3e0",
+            "widgetIdReceiver": "86e3a206-bcf7-4966-aa81-ffab41dea22b"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "cc2b26f6-1a53-4ffd-a515-ec075810b3e0",
+            "widgetIdReceiver": "9c60c591-6539-4aef-a289-f4cb4af56dc2"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "DRS Happy VMs",
+                     "metricKey": "summary|drs_happy_vms",
+                     "metricName": "Summary|DRS Happy VMs",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "DRS Unhappy VMs",
+                     "metricKey": "summary|drs_unhappy_vms",
+                     "metricName": "Summary|DRS Unhappy VMs",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Running Hosts",
+                     "metricKey": "summary|number_running_hosts",
+                     "metricName": "Summary|Number of Running Hosts",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Running VMs",
+                     "metricKey": "summary|number_running_vms",
+                     "metricName": "Summary|Number of Running VMs (Virtual Machines)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cluster List - Click for more Details"
+            },
+            "gridsterCoords": {
+               "h": 11,
+               "w": 6,
+               "x": 1,
+               "y": 1
+            },
+            "height": 609,
+            "id": "cc2b26f6-1a53-4ffd-a515-ec075810b3e0",
+            "states": [{
+               "key": "permResGrid_widget_2d3d5967-e87e-4bd2-8155-7257aa08c583_cc2b26f6-1a53-4ffd-a515-ec075810b3e0",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A147%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A120%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A104%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A293%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cluster List - Click for more Details",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 1
+            },
+            "height": 324,
+            "id": "86e3a206-bcf7-4966-aa81-ffab41dea22b",
+            "title": "Time Remaining",
+            "type": "IntSummaryTimeRemaining"
+         },
+         {
+            "collapsed": false,
+            "config": {},
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 7
+            },
+            "height": 267,
+            "id": "9c60c591-6539-4aef-a289-f4cb4af56dc2",
+            "title": "Capacity Remaining",
+            "type": "IntSummaryCapacity"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resource": {
+                  "adapterKindId": "VMWARE",
+                  "allowDrag": true,
+                  "allowDrop": true,
+                  "checked": null,
+                  "children": null,
+                  "cls": "",
+                  "depth": 1,
+                  "expandable": true,
+                  "expanded": false,
+                  "href": "",
+                  "hrefTarget": "",
+                  "icon": "",
+                  "iconCls": "resknd_default_vmware_vsphereworld",
+                  "iconSrc": "images/resknd/default/16x16/VMWARE_vSphere World.png",
+                  "id": "86771af4-3f18-4dd2-b810-147b80620f5f",
+                  "index": 0,
+                  "isFirst": true,
+                  "isLast": true,
+                  "leaf": false,
+                  "loaded": false,
+                  "loading": false,
+                  "nodeType": "resource",
+                  "parentId": "source",
+                  "qshowDelay": 0,
+                  "qtip": "",
+                  "qtitle": "",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceKindKey": "vSphere World",
+                  "resourceKindName": "vSphere World",
+                  "resourceKindType": 8,
+                  "resourceName": "vSphere World",
+                  "root": false,
+                  "rootResourceId": "86771af4-3f18-4dd2-b810-147b80620f5f",
+                  "text": "vSphere World",
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World",
+                  "uniqueId": "86771af4-3f18-4dd2-b810-147b80620f5f_1542206768265",
+                  "visible": true
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Cluster time Remaining",
+               "traversalSpecId": null,
+               "viewDefinitionId": "9e5f84ec-f821-43b8-8641-97612739da93"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 19
+            },
+            "height": 381,
+            "id": "00150eba-5393-4f58-91e5-f7e84218ca9b",
+            "title": "Cluster time Remaining",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "adapterKindId": "VMWARE",
+                  "allowDrag": true,
+                  "allowDrop": true,
+                  "checked": null,
+                  "children": null,
+                  "cls": "",
+                  "depth": 1,
+                  "expandable": true,
+                  "expanded": false,
+                  "href": "",
+                  "hrefTarget": "",
+                  "icon": "",
+                  "iconCls": "resknd_default_vmware_vsphereworld",
+                  "iconSrc": "images/resknd/default/16x16/VMWARE_vSphere World.png",
+                  "id": "86771af4-3f18-4dd2-b810-147b80620f5f",
+                  "index": 0,
+                  "isFirst": true,
+                  "isLast": true,
+                  "leaf": false,
+                  "loaded": false,
+                  "loading": false,
+                  "nodeType": "resource",
+                  "parentId": "source",
+                  "qshowDelay": 0,
+                  "qtip": "",
+                  "qtitle": "",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREvSphere World",
+                  "resourceKindKey": "vSphere World",
+                  "resourceKindName": "vSphere World",
+                  "resourceKindType": 8,
+                  "resourceName": "vSphere World",
+                  "root": false,
+                  "rootResourceId": "86771af4-3f18-4dd2-b810-147b80620f5f",
+                  "text": "vSphere World",
+                  "traversalSpecId": "vSphere Hosts and Clusters-VMWARE-vSphere World",
+                  "uniqueId": "86771af4-3f18-4dd2-b810-147b80620f5f_1542206759087",
+                  "visible": true
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Cluster Capacity Remaining",
+               "traversalSpecId": null,
+               "viewDefinitionId": "aa51ab9a-5d13-4a90-ad5d-99db4bcc3318"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 12,
+               "x": 1,
+               "y": 12
+            },
+            "height": 381,
+            "id": "f14c4983-5f21-4ffa-9974-01974c4c50d3",
+            "title": "Cluster Capacity Remaining",
+            "type": "View"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "vSphere World",
+         "resourceKindKey": "vSphere World"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "VMWARE",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "ClusterComputeResource"
+      }]
+   },
+   "uuid": "130eb39b-4920-4d1e-95d8-f625e0ace2fa"
+}
